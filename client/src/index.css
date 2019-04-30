@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#root > div,
+div[data-reactroot] {
+  max-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+body{
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(./images/fooddude.jpg);
+}
